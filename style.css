@@ -1,0 +1,169 @@
+:root {
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+hr {
+  height: 0.5px;
+  color: black;
+  background: black;
+  opacity: 0.8;
+  border: 0;
+  margin-bottom: 2em;
+}
+
+body {
+  background-color: var(--Stone-100);
+  width: 100%;
+}
+
+.content {
+  width: 50vw;
+  margin: 15vh auto;
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.section_1 {
+  width: 100%;
+}
+
+.section_1 img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.section_1 h1 {
+  font-size: 2.375rem;
+  margin: 1em auto 0.7em;
+  color: var(--Stone-900);
+}
+
+.section_1 p {
+  color: var(--Stone-600);
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+.prep-time {
+  width: 100%;
+  border-radius: 16px;
+  background-color: var(--Rose-50);
+  padding: 2em;
+  margin: 2em auto;
+}
+
+.prep-time h3 {
+  padding-bottom: 0.5em;
+  color: var(--Rose-800);
+}
+
+.prep-time ul li {
+  line-height: 2em;
+  padding-left: 1.2em;
+  margin-left: 1.3em;
+  color: var(--Stone-600);
+}
+
+.prep-time ul li::marker {
+  color: var(--Rose-800);
+  font-size: 0.75rem;
+}
+
+.prep-time ul li span {
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--Brown-800);
+  font-size: 1.75rem;
+  padding-bottom: 0.5em;
+}
+
+.ingredients {
+  padding-bottom: 2em;
+}
+
+.ingredients ul li {
+  line-height: 2em;
+  padding-left: 1.2em;
+  margin-left: 1.3em;
+  color: var(--Stone-600);
+  opacity: 0.8;
+}
+
+.ingredients ul li::marker {
+  color: var(--Brown-800);
+  font-size: 0.75rem;
+}
+
+.instructions {
+  padding-bottom: 2em;
+}
+
+.instructions ol li {
+  color: var(--Stone-600);
+  opacity: 0.8;
+  padding-left: 1em;
+  margin-left: 1.3em;
+  line-height: 1.5em;
+}
+
+.instructions ol li span {
+  font-weight: 650;
+}
+
+.instructions ol li:not(:last-child) {
+  padding-bottom: 0.5rem;
+}
+
+.instructions ol li::marker {
+  font-weight: 650;
+  color: var(--Brown-800);
+}
+
+
+.nutrition p {
+  color: var(--Stone-600);
+  opacity: 0.8;
+  padding-bottom: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:not(:last-child) {
+  border-bottom: 0.5px solid rgba(51, 51, 51, 0.493);
+}
+
+td {
+  padding: 1em 1em;
+  color: var(--Stone-600);
+  opacity: 0.8;
+}
+
+.nutrient-amount {
+  color: var(--Brown-800);
+  font-weight: 650;
+}
